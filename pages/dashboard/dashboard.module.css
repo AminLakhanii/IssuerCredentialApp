@@ -1,0 +1,17 @@
+/* dashboard.module.css */
+
+.container {
+  display: inline; /* Add flex display to create a flex container */
+}
+
+.content{
+  margin-left: 19%;
+}
+.img{
+  height: 70px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-left: 50%;
+}

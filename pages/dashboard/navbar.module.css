@@ -1,0 +1,33 @@
+
+.navbar ul {
+  background-color: rgb(29, 28, 28);
+  list-style-type: none;
+  color: white;
+  margin: 0;
+  padding: 0;
+  width: 18%;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+/* 
+.navbar ul li {
+  margin-left: 10px;
+} */
+
+.navbar ul li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.navbar ul li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.navbar ul li a:hover:not(.active) {
+  background-color: rgb(224, 163, 6) ;
+  color: rgb(4, 4, 4);
+}
